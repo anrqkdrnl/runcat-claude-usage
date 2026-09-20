@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>LABEL</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>PYTHON3_PATH</string>
+        <string>SCRIPT_PATH</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>RUNCAT_KEYCHAIN_SERVICE</key>
+        <string>KEYCHAIN_SERVICE</string>
+        <key>CLAUDE_CONFIG_DIR</key>
+        <string>CONFIG_DIR</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>300</integer>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>StandardOutPath</key>
+    <string>LOG_OUT_PATH</string>
+    <key>StandardErrorPath</key>
+    <string>LOG_ERR_PATH</string>
+</dict>
+</plist>
