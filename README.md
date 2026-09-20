@@ -17,6 +17,18 @@
 원한다면 방법 B를 쓰세요. 계정이 2개면 "계정 1개짜리 방법 B"를 계정 수만큼 반복하면 됩니다 — 아래
 [계정 2개 이상](#계정-2개-이상-쓰기-방법-b) 섹션에 그대로 정리해 뒀습니다.
 
+### Claude Code에게 통째로 맡기기
+
+아래 문서를 직접 따라 하는 대신, 4가지 경우에 맞는 작업지시서를 [`claude-setup-orders/`](claude-setup-orders/)에
+준비해 뒀습니다. 해당하는 파일 하나를 그대로 Claude Code에게 주면 처음부터 끝까지 자동으로 진행합니다
+(단, 방법 B는 키체인 자격증명을 다루는 특성상 몇몇 단계에서 사용자 확인/직접 실행을 요청할 수 있습니다 —
+각 문서에 그 부분이 명시돼 있습니다):
+
+- [`A-single-account.md`](claude-setup-orders/A-single-account.md) — 방법 A, 계정 1개
+- [`A-multi-account.md`](claude-setup-orders/A-multi-account.md) — 방법 A, 계정 2개 이상
+- [`B-single-account.md`](claude-setup-orders/B-single-account.md) — 방법 B, 계정 1개
+- [`B-multi-account.md`](claude-setup-orders/B-multi-account.md) — 방법 B, 계정 2개 이상
+
 ---
 
 ## 방법 A: 간단 설치 (statusLine 훅)
